@@ -9,19 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let masternessLevel = 9001
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-<<<<<<< HEAD
         print("hello")
         
         print("1")
         print("2")
         print("3")
-=======
         print("feature-c")
->>>>>>> feature-c
+    }
+    
+    func howMasterCanYouGo() {
+        print("Over \(masternessLevel) masterness!")
     }
 
     override func didReceiveMemoryWarning() {
