@@ -23,8 +23,13 @@ class ViewController: UIViewController {
         print("feature-c")
     }
     
+<<<<<<< HEAD
     func howMasterCanYouGo() {
         print("Over \(masternessLevel) masterness!")
+=======
+    func freatureX() {
+        print("featureX")
+>>>>>>> feature-x
     }
 
     override func didReceiveMemoryWarning() {
